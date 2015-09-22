@@ -44,6 +44,8 @@ Sub run()
 
         Set cell = cell.Offset(1, 0)
     Loop
+
+    Zmienna objekt = New Zmienna();
     
     Set rngDistinct = GetDistinct(ws.Range(rngDataRow.Cells(1, 1).Offset(1, 0), cell).SpecialCells(xlCellTypeVisible))
     
