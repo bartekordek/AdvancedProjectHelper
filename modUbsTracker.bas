@@ -16,6 +16,7 @@ Sub run()
     Dim feedback As String
     Dim rng As Range
     Dim rng2
+    Dim dupa
 
     Set wb = ThisWorkbook
     Set ws = wb.Sheets("report")
