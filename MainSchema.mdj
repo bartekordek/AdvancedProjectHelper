@@ -4070,7 +4070,7 @@
 											"containerExtending": false,
 											"left": 829,
 											"top": 311,
-											"width": 70.458984375,
+											"width": 71,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -4139,7 +4139,7 @@
 									"containerExtending": false,
 									"left": 824,
 									"top": 304,
-									"width": 80.458984375,
+									"width": 81,
 									"height": 25,
 									"autoResize": false,
 									"stereotypeLabel": {
@@ -4185,7 +4185,7 @@
 											"containerExtending": false,
 											"left": 829,
 											"top": 334,
-											"width": 70.458984375,
+											"width": 71,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -4213,7 +4213,7 @@
 											"containerExtending": false,
 											"left": 829,
 											"top": 349,
-											"width": 70.458984375,
+											"width": 71,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -4233,7 +4233,7 @@
 									"containerExtending": false,
 									"left": 824,
 									"top": 329,
-									"width": 80.458984375,
+									"width": 81,
 									"height": 38,
 									"autoResize": false
 								},
@@ -4257,7 +4257,7 @@
 									"containerExtending": false,
 									"left": 824,
 									"top": 367,
-									"width": 80.458984375,
+									"width": 81,
 									"height": 10,
 									"autoResize": false
 								},
@@ -4321,7 +4321,7 @@
 							"containerExtending": false,
 							"left": 824,
 							"top": 304,
-							"width": 80.458984375,
+							"width": 81,
 							"height": 73,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
@@ -6803,6 +6803,16 @@
 					"isFinalSpecialization": false,
 					"isLeaf": false,
 					"isActive": false
+				},
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAFQLlqR9jj00I8=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "UseCaseDiagram1",
+					"visible": true,
+					"defaultDiagram": false
 				}
 			],
 			"visibility": "public"
