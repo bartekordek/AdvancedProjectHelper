@@ -7,44 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Input;
 
-namespace Ultimate_Management_Tool
+namespace UltimateManagementTool
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-            this.FillTree();
+			dbManager = new DBManager.CDbManager();
         }
 
-        private void FillTree()
-        {
-            using (var db = new UMTEntities())
-            {
-                var query = from a in db.Activities
-                            select a;
+		private void btnLoadDb_Click( object sender, EventArgs e )
+		{
+			
+		}
 
-                foreach (var act in query)
-                {
-                    var node = new TreeNode()
-                    {
-                        Name=act.Id.ToString(),
-                        Text=act.activityName
-                    };
+		private void btnCreateNewDb_Click( object sender, EventArgs e )
+		{
+			DbBuilder.CDbBuilder.CreateEmptyDb( dbManager );
+		}
 
-                    if (act.parentActivityId.HasValue)
-                    {
-                        var parentNode = treeView1.Nodes.Find(act.parentActivityId.ToString(), true)[0];
-
-                        parentNode.Nodes.Add(node);
-                    }
-                    else
-                    {
-                        treeView1.Nodes.Add(node);
-                    }
-                }
-            }
-        }
-    }
+		private DBManager.CDbManager dbManager;
+	}
 }

@@ -4070,7 +4070,7 @@
 											"containerExtending": false,
 											"left": 829,
 											"top": 311,
-											"width": 69.34814453125,
+											"width": 71,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -4139,7 +4139,7 @@
 									"containerExtending": false,
 									"left": 824,
 									"top": 304,
-									"width": 79.34814453125,
+									"width": 81,
 									"height": 25,
 									"autoResize": false,
 									"stereotypeLabel": {
@@ -4185,7 +4185,7 @@
 											"containerExtending": false,
 											"left": 829,
 											"top": 334,
-											"width": 69.34814453125,
+											"width": 71,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
@@ -4213,11 +4213,11 @@
 											"containerExtending": false,
 											"left": 829,
 											"top": 349,
-											"width": 69.34814453125,
+											"width": 71,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "+name",
+											"text": "+description",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5
 										}
@@ -4233,7 +4233,7 @@
 									"containerExtending": false,
 									"left": 824,
 									"top": 329,
-									"width": 79.34814453125,
+									"width": 81,
 									"height": 38,
 									"autoResize": false
 								},
@@ -4257,7 +4257,7 @@
 									"containerExtending": false,
 									"left": 824,
 									"top": 367,
-									"width": 79.34814453125,
+									"width": 81,
 									"height": 10,
 									"autoResize": false
 								},
@@ -4321,7 +4321,7 @@
 							"containerExtending": false,
 							"left": 824,
 							"top": 304,
-							"width": 79.34814453125,
+							"width": 81,
 							"height": 73,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
@@ -6473,7 +6473,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFP9P0CzpmTDQo="
 							},
-							"name": "name",
+							"name": "description",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
@@ -6803,6 +6803,16 @@
 					"isFinalSpecialization": false,
 					"isLeaf": false,
 					"isActive": false
+				},
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAFQLlqR9jj00I8=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "UseCaseDiagram1",
+					"visible": true,
+					"defaultDiagram": false
 				}
 			],
 			"visibility": "public"
